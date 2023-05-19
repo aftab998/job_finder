@@ -20,6 +20,7 @@ class _detailState extends State<detail> {
           padding: const EdgeInsets.symmetric(horizontal: 40.0, vertical: 4),
           child: SingleChildScrollView(
             child: Column(
+
               children: [
                 Text("Deputy Commissioner Class IV Staff job Interviews 2023", style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold),),
                 Text("Deputy Commissioner Office",style: TextStyle(fontSize: 12),),
@@ -121,7 +122,29 @@ class _detailState extends State<detail> {
                       ),
                     ),
                   ],
-                )
+                ),
+                const SizedBox(height: 18,),
+
+
+                Text("Description:", style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold)),
+                const SizedBox(height: 10,),
+                Text("Jobs in Pakistan, Official Govt Jobs, Dubia"
+                    " Career, Today Newspapers Jobs in Pakistan,"
+                    "Paper PK 7 May 2023, Work Home, Earn"
+                    "Money Online 2024"
+                    "Follow Jobz.pk | Join Whatsapp Group |"
+                    "Follow us at Facebook | Daily Lucky Draw"
+                    "ASF | PAEC | PHP | FIA | PPSC | Join Pak"
+                    "Navy | Punjab Police | FPSC | SPSC | Police |"
+                    "Medical | PAF | KPPSC"
+                    "Join Pak Army | Wapda | NAB | Railway |"
+                    "Bank | Teaching | Engineerinng | Data Entry |"
+                    "Citywise | Latest Posts"
+                    "HomeInterviewing JobsDeputy Commissioner"
+                    "OfficeDeputy Commissioner Class IV Staff"
+                    "Job Interviews 2023 Pakistan 2023"
+                    "Interviewing"
+                    "Deputy Commissioner Class IV Staff Job Interviews 2023",style: TextStyle(fontSize: 13,))
 
 
               ],
